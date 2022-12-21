@@ -1,0 +1,124 @@
+/* GENERAL RULES */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;            
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+html {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* DEBUG RULES */
+
+.debug header{
+    padding: 20px;
+}
+
+/* SPECIFIC RULES */
+
+.main-header {
+    width: 100%;
+    background-color: white;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 0 20px;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-list li a{
+    font-weight: 200;
+    padding: 5px 20px;
+}
+
+.header-list .logo {
+    padding-left: 0;
+}
+
+.blue-button {
+    color: white;
+    background-color: #0160FF;
+}
+
+.section-first {
+    background-color: #B4D0E7;
+}
+
+.container {
+    max-width: 1255px;
+    margin: 0 auto;
+    padding: 80px 0 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-100 {
+    flex-basis: 100%;
+    margin-bottom: 40px;
+}
+
+.col-30 {
+    flex-basis: 30%;
+    position: relative;
+}
+
+.col-70 {
+    flex-basis: 70%;
+    margin-bottom: -75px;
+}
+
+.hero-title {
+    font-size: 80px;
+    font-weight: 800;
+    width: 100%;
+}
+
+.free-trial {
+    background-color: #0160FF;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+}
+
+.hero-paragraph {
+    margin-bottom: 32px;
+}
+
+.hero-paragraph-2 {
+    margin-top: 32px;
+}
+
+.arrow-down {
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    font-size: 46px;
+}
