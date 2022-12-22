@@ -353,3 +353,37 @@ html {
     margin-bottom: 30px;
 }
 
+.row-33 {
+    margin: 0 -25px;
+}
+
+.row-33 .col-33 {
+    margin-bottom: 0;
+}
+
+.size-38 {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.feature {
+    padding-bottom: 32px;
+    font-size: 24px;
+}
+
+.business-users {
+    padding: 200px 0 55px;
+    max-width: 630px;
+}
+
+.more-info {
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 150px;
+    display: block;
+}
+
+
+
+
+
