@@ -215,31 +215,36 @@ html {
     list-style-position: outside;
 }
 
-.list-container {
+/* .list-container {
     margin-left: 16px;
-}
+} */
 
 .benefits li {
     margin-bottom: 20px;
     padding: 0 5px;
+    display: flex;
+    gap: 6px;
 }
 
-.users::marker {
+.users::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f007";
+    line-height: 20px;
 }
 
-.storage-space::marker {
+.storage-space::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f07b";
+    line-height: 20px;
 }
 
-.functions::marker {
+.functions::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f1e0";
+    line-height: 20px;
 }
 
 .width-100 {
@@ -263,6 +268,8 @@ html {
 .more-benefits li {
     margin-bottom: 25px;
     padding: 0 5px;
+    display: flex;
+    gap: 6px;
 }
 
 .info:before {
@@ -274,11 +281,12 @@ html {
     margin-bottom: 55px;
 }
 
-.check::marker {
+.check::before {
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f00c";
     color: #0160FF;
+    line-height: 20px;
 }
 
 .description {
